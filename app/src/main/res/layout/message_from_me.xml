@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_gravity="end"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_gravity="end"
+        android:background="#55E37D"
+        android:padding="10dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!--  layout_gravity="end" 是把找个空间放在屏幕右侧  -->
+
+    <TextView
+        android:id="@+id/messageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="end"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp" />
+
+
+</LinearLayout>
